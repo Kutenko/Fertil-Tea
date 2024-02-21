@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+		<script src="js/uikit.min.js" async="async"></script>
+		<script src="js/SmoothScroll.min.js" async="async"></script>
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/ukit.min.css"/>
+		<title>Fertiliteat - Чай с фитоэкстрактами для здоровья репродуктивной системы</title>
+	</head>
+	<body>
+		<section class="hero" uk-parallax="bgy: 400">
+			<div class="hero-bg__front" uk-parallax="bgy: 200"></div>
+			<div class="container">
+				<div class="hero-icon"><img class="hero-icon_img" src="images/hero_icon-1.png"/><img class="hero-icon_img" src="images/hero_icon-2.png"/><img class="hero-icon_img" src="images/hero_icon-3.png"/></div>
+				<h2 class="hero-title"> <span>Чай с фитоэкстрактами <br></span>для здоровья репродуктивной <br>
+					системы
+				</h2>
+				<div class="hero-product">
+					<div class="hero-product__list">
+						<ul>
+							<li>
+								<div class="hero-product__list-dot"></div>
+								<div class="hero-product__list-arrow"></div>
+								<div class="hero-product__list-image"><img src="images/hero-list-img-1.png"/></div>
+								<div class="hero-product__list-text"> <span>Нормализует баланс </span><span>гормонов</span></div>
+							</li>
+							<li>
+								<div class="hero-product__list-dot"></div>
+								<div class="hero-product__list-arrow"></div>
+								<div class="hero-product__list-image"><img src="images/hero-list-img-2.png"/></div>
+								<div class="hero-product__list-text"> <span>Стабилизирует <br></span><span>менструальный цикл</span></div>
+							</li>
+							<li>
+								<div class="hero-product__list-dot"></div>
+								<div class="hero-product__list-arrow"></div>
+								<div class="hero-product__list-image"><img src="images/hero-list-img-3.png"/></div>
+								<div class="hero-product__list-text"> <span>Снижает уровень стресса </span><span>гормонов</span></div>
+							</li>
+							<li>
+								<div class="hero-product__list-dot"></div>
+								<div class="hero-product__list-arrow"></div>
+								<div class="hero-product__list-image"><img src="images/hero-list-img-4.png"/></div>
+								<div class="hero-product__list-text"> <span>Увеличивает вероятность <br></span><span>зачатия</span></div>
+							</li>
+						</ul>
+					</div>
+					<div class="hero-product__image"><img src="images/product.png"/></div>
+					<div class="hero-product__woman-image"><img src="images/hero-woman.png"/></div>
+				</div><a class="hero-button _button" href="#target-form" uk-scroll="uk-scroll">заказать</a>
+			</div>
+		</section>
+		<div class="section-feature">
+			<div class="container">
+				<h2 class="section-feature__title" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true">Когда вам нужен <br><span>FertiliTea?</span></h2>
+				<div class="section-feature__subtitle" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true;delay: 300;">Женскому организму требуется дополнительная поддержка — курс FertiliTea — в следующих случаях:</div>
+				<ul class="section-feature__feature-list" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true;">
+					<li><img class="feature-list__image" src="images/emoji-1.png"/>
+						<div class="feature-list__text">Нарушение гормонального фона</div>
+					</li>
+					<li><img class="feature-list__image" src="images/emoji-2.png"/>
+						<div class="feature-list__text">Воспаления органов малого таза          </div>
+					</li>
+					<li><img class="feature-list__image" src="images/emoji-3.png"/>
+						<div class="feature-list__text">Хронические гинекологические заболевания          </div>
+					</li>
+				</ul>
+				<ul class="section-feature__feature-list" id="toggle-usage" hidden="hidden">
+					<li><img class="feature-list__image" src="images/emoji-4.png"/>
+						<div class="feature-list__text">Инфекции различного происхождения</div>
+					</li>
+					<li><img class="feature-list__image" src="images/emoji-5.png"/>
+						<div class="feature-list__text">Болезненные/длительные менструации</div>
+					</li>
+					<li><img class="feature-list__image" src="images/emoji-6.png"/>
+						<div class="feature-list__text">Проблемы с зачатием/вынашиванием ребенка</div>
+					</li>
+					<li><img class="feature-list__image" src="images/emoji-7.png"/>
+						<div class="feature-list__text">Снижение/отсутствие сексуального влечения</div>
+					</li>
+					<li><img class="feature-list__image" src="images/emoji-8.png"/>
+						<div class="feature-list__text">Болезненные ощущения во время секса</div>
+					</li>
+					<li><img class="feature-list__image" src="images/emoji-9.png"/>
+						<div class="feature-list__text">Повышенная тревожность, нервозность</div>
+					</li>
+					<li><img class="feature-list__image" src="images/emoji-10.png"/>
+						<div class="feature-list__text">Предменструальный синдром</div>
+					</li>
+					<li><img class="feature-list__image" src="images/emoji-11.png"/>
+						<div class="feature-list__text">Пременопауза и менопауза</div>
+					</li>
+					<li><img class="feature-list__image" src="images/emoji-12.png"/>
+						<div class="feature-list__text">Планирование беременности</div>
+					</li>
+				</ul>
+				<center>
+					<div class="feature-list__button _open" id="toggle-usage" type="button" uk-toggle="target: #toggle-usage; animation: uk-animation-fade">Посмотреть еще</div>
+					<div class="feature-list__button _close" id="toggle-usage" type="button" uk-toggle="target: #toggle-usage; animation: uk-animation-fade" hidden="hidden">Скрыть</div>
+				</center>
+			</div>
+		</div>
+		<div class="section-about">
+			<div class="container">
+				<h2 class="section-about__about-title" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true">Вековой опыт <br> на страже женского здоровья</h2>
+				<div class="section-about__about-text" uk-parallax="y: -50,50">
+					<div class="first"><b>ertiliTea — травяной сбор для нормализации и поддержания работы женской репродуктивной системы.</b> </div>
+					<p>
+						Создан по рецептуре XVII века с применением современных технологий обработки. Органический продукт на 100 %: изготовлен из собственного сырья, произрастающего в экологически чистых районах.
+						<br>
+						Не содержит красителей, консервантов и синтетических вспомогательных веществ.
+					</p>
+					<p>Поддерживает женское здоровье в любом возрасте:</p>
+					<ul>
+						<li>снимает боль и устраняет симптомы ПМС;</li>
+						<li>подготавливает организм к материнству и вынашиванию ребенка;</li>
+						<li>облегчает течение пременопаузы и менопаузы.</li>
+					</ul>
+				</div><a class="section-about__about-button _button" href="#target-form" uk-scroll="uk-scroll">Заказать</a>
+			</div>
+		</div>
+		<div class="section-comp">
+			<div class="section-comp__comp-title" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true;">
+				 Природная формула <br><span>женственности</span></div>
+			<div class="section-comp__comp-elements" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true;">
+				<div class="uk-slider-items">
+					<div class="comp-elements__comp-el">
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-1.png"/>
+							<div class="comp-el__name">Ромашка</div>
+							<div class="comp-el__text">Снимает спазм и боли во время менструаций, противовоспалительное и кровоостанавливающее средство, нормализует цикл, стимулирует овуляцию, успокаивает, предотвращает неврозы.</div>
+						</div>
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-2.png"/>
+							<div class="comp-el__name">Крапива</div>
+							<div class="comp-el__text">Противовоспалительное, бактерицидное и кровоостанавливающее средство, стабилизирует цикл, нормализует объем выделений, поддерживает работу женского организма.</div>
+						</div>
+					</div>
+					<div class="comp-elements__comp-el">
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-3.png"/>
+							<div class="comp-el__name">Мелисса</div>
+							<div class="comp-el__text">Успокаивает, расслабляет, снижает тревожность, предотвращает перепады настроения, нормализует работу нервной системы, спазмолитическое средство, нормализует работу половой системы.</div>
+						</div>
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-4.png"/>
+							<div class="comp-el__name">Тысячелистник</div>
+							<div class="comp-el__text">Кровоостанавливающее и противовоспалительное средство, стимулирует работу мускулатуры матки, увеличивает шансы закрепления яйцеклетки, защищает от инфекций, снимает спазмы.К</div>
+						</div>
+					</div>
+					<div class="comp-elements__comp-el">
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-5.png"/>
+							<div class="comp-el__name">Манжетка </div>
+							<div class="comp-el__text">Кровоостанавливающее и ранозаживляющее средство, защищает от половых инфекций, стимулирует овуляцию, увеличивает вероятность беременности, облегчает течение климакса.</div>
+						</div>
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-6.png"/>
+							<div class="comp-el__name">Календула</div>
+							<div class="comp-el__text">Бактерицидное, спазмолитическое и противовоспалительное средство, способствует заживлению эрозий, ускоряет регенерацию тканей, поддерживает работу репродуктивной системы.</div>
+						</div>
+					</div>
+					<div class="comp-elements__comp-el">
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-1.png"/>
+							<div class="comp-el__name">Ромашка</div>
+							<div class="comp-el__text">Снимает спазм и боли во время менструаций, противовоспалительное и кровоостанавливающее средство, нормализует цикл, стимулирует овуляцию, успокаивает, предотвращает неврозы.</div>
+						</div>
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-2.png"/>
+							<div class="comp-el__name">Крапива</div>
+							<div class="comp-el__text">Противовоспалительное, бактерицидное и кровоостанавливающее средство, стабилизирует цикл, нормализует объем выделений, поддерживает работу женского организма.</div>
+						</div>
+					</div>
+					<div class="comp-elements__comp-el">
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-3.png"/>
+							<div class="comp-el__name">Мелисса</div>
+							<div class="comp-el__text">Успокаивает, расслабляет, снижает тревожность, предотвращает перепады настроения, нормализует работу нервной системы, спазмолитическое средство, нормализует работу половой системы.</div>
+						</div>
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-4.png"/>
+							<div class="comp-el__name">Тысячелистник</div>
+							<div class="comp-el__text">Кровоостанавливающее и противовоспалительное средство, стимулирует работу мускулатуры матки, увеличивает шансы закрепления яйцеклетки, защищает от инфекций, снимает спазмы.</div>
+						</div>
+					</div>
+					<div class="comp-elements__comp-el">
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-5.png"/>
+							<div class="comp-el__name">Манжетка </div>
+							<div class="comp-el__text">Кровоостанавливающее и ранозаживляющее средство, защищает от половых инфекций, стимулирует овуляцию, увеличивает вероятность беременности, облегчает течение климакса.</div>
+						</div>
+						<div class="comp-elements__comp-row"><img class="comp-el__image" src="images/comp-el__image-6.png"/>
+							<div class="comp-el__name">Календула</div>
+							<div class="comp-el__text">Бактерицидное, спазмолитическое и противовоспалительное средство, способствует заживлению эрозий, ускоряет регенерацию тканей, поддерживает работу репродуктивной системы.</div>
+						</div>
+					</div>
+				</div>
+				<ul class="uk-slider-nav uk-dotnav uk-animation-fade"></ul>
+				<div class="comp-elements__elements-nav">
+					<div class="elements-nav__el"><a class="left" href="#" uk-slider-item="previous"></a><a class="right" href="#" uk-slider-item="next"></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="section-expert">
+			<div class="container">
+				<div class="section-expert__expert" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true">
+					<h2 class="section-expert__title" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true">Комплексная <span>поддержка женского здоровья</span> в любом возрасте</h2>
+					<div class="section-expert__expert-image_mob">
+						<div class="expert-image_mob__image" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 200; repeat: true"></div>
+						<div class="expert-image__decor" uk-scrollspy="cls: uk-animation-scale-up;delay: 1000; repeat: true"></div>
+					</div>
+					<div class="section-expert__expert-text">
+						<div class="expert-text__expert-name">Мария Прокофьева</div>
+						<div class="expert-text__expert-job">репродуктолог, специалист по женскому здоровью, опыт работы 13 лет</div>
+						<div class="expert-text__text">
+							<p>95 % женщин старше 18 лет сталкиваются с проблемами в репродуктивной сфере — от нарушений цикла и болезненных менструаций до пониженной фертильности и бесплодия. Большинство аптечных препаратов устраняют симптомы и не влияют на причину недомогания. Поэтому всем женщинам, в том числе будущим мамам, для улучшения здоровья и поддержания организма рекомендую пить натуральный травяной сбор FertiliTea. Компоненты чая нормализуют и поддерживают работу репродуктивной системы, защищают ее от воспалений и инфекций, облегчают симптомы ПМС, предменопаузы и менопаузы, обладают комплексным оздоравливающим эффектом. Регулярный прием FertiliTea положительно влияет на сексуальную и психоэмоциональную сферы, что особенно важно для полноценной жизни каждой женщины.</p>
+						</div>
+					</div>
+					<div class="section-expert__expert-image"><img src="images/expert.png" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 200; repeat: true"/>
+						<div class="expert-image__decor" uk-scrollspy="cls: uk-animation-scale-up;delay: 1000; repeat: true"></div>
+					</div>
+				</div>
+				<div class="section-expert__tests">
+					<div class="tests__tests-title" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true">Клинические исследования доказали <span>эффективность FertiliTea*</span></div>
+					<div class="tests__tests-items">
+						<div class="tests-items__tests-item" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true">
+							<div class="tests-item__schedule"></div>
+							<div class="tests-item__percent">99%</div>
+							<div class="tests-item__text">Нормализация цикла, уменьшение болезненности менструаций</div>
+						</div>
+						<div class="tests-items__tests-item" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true"> 
+							<div class="tests-item__schedule"></div>
+							<div class="tests-item__percent">98%</div>
+							<div class="tests-item__text">Стимуляция овуляций, увеличение фертильности (вероятность забеременеть)  </div>
+						</div>
+						<div class="tests-items__tests-item" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true"> 
+							<div class="tests-item__schedule"></div>
+							<div class="tests-item__percent">96%</div>
+							<div class="tests-item__text">Уменьшение воспалений и хронических заболеваний органов малого таза</div>
+						</div>
+						<div class="tests-items__tests-item" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true"> 
+							<div class="tests-item__schedule"></div>
+							<div class="tests-item__percent">95%</div>
+							<div class="tests-item__text">Снижение тревожности, защита от стресса, укрепление нервной системы</div>
+						</div>
+						<div class="tests-items__tests-item" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true"> 
+							<div class="tests-item__schedule"></div>
+							<div class="tests-item__percent">93%</div>
+							<div class="tests-item__text">Стабилизация гормонального баланса </div>
+						</div>
+						<div class="tests-items__tests-item" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true"> 
+							<div class="tests-item__schedule"></div>
+							<div class="tests-item__percent">91%</div>
+							<div class="tests-item__text">Защита от инфекций различного происхождения</div>
+						</div>
+						<div class="tests-items__tests-item" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true"> 
+							<div class="tests-item__schedule"></div>
+							<div class="tests-item__percent">89%</div>
+							<div class="tests-item__text">Снижение частоты осложнений во время беременности</div>
+						</div>
+						<div class="tests-items__tests-item" uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true"> 
+							<div class="tests-item__schedule"></div>
+							<div class="tests-item__percent">84%</div>
+							<div class="tests-item__text">Улучшение работы мускулатуры матки </div>
+						</div>
+					</div>
+					<div class="tests__text">* В тестировании приняли участие 342 женщины старше 18 лет.</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-instruction">
+			<div class="container">
+				<h2 class="section-instruction__title" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true">Легкий в приготовлении — <span>эффективный</span> в применении</h2>
+				<div class="section-instruction__instruction-items" uk-scrollspy="target: .instruction-items__item; cls: active uk-animation-fade; delay:800">
+					<div class="row">
+						<div class="instruction-items__item"><img class="instruction-item__image" src="images/instruction-1.png"/>
+							<div class="instruction-item__number">1</div>
+							<div class="instruction-item__text">Столовую ложку чайного сбора залить литром кипятка.</div>
+						</div>
+						<div class="instruction-items__item"><img class="instruction-item__image" src="images/instruction-4.png"/>
+							<div class="instruction-item__number">2</div>
+							<div class="instruction-item__text">Накрыть и дать постоять 15–20 минут.</div>
+						</div>
+						<div class="instruction-items__item"><img class="instruction-item__image" src="images/instruction-2.png"/>
+							<div class="instruction-item__number">3</div>
+							<div class="instruction-item__text">Процедить и пить на протяжении дня.</div>
+						</div>
+						<div class="instruction-items__item"><img class="instruction-item__image" src="images/instruction-5.png"/>
+							<div class="instruction-item__number">4</div>
+							<div class="instruction-item__text">Рекомендованный курс — 4 недели.</div>
+						</div>
+						<div class="instruction-items__item"><img class="instruction-item__image" src="images/instruction-3.png"/>
+							<div class="instruction-item__number">5</div>
+							<div class="instruction-item__text">Для закрепления эффекта курс повторяют 2 раза в год.</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="section-instruction__text" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true">FertiliTea не вызывает привыкания, не имеет побочных эффектов, эффективен при лечении и профилактике проблем в репродуктивной и психоэмоциональной сфере.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-review">
+			<div class="container">
+				<div class="section-review__review-title" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true"><span>FertiliTea помог</span> тысячам женщин <br> во всем мире</div>
+				<div class="section-review__review-feature__subtitle" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 300; repeat: true">Вот некоторые отзывы тех, кто воспользовался этим средством.</div>
+			</div>
+			<div class="section-review__review-slider" tabindex="-1" uk-slider="uk-slider">
+				<div class="uk-slider-items">
+					<div>
+						<div class="review-card">
+							<div class="review-slider__review-autor">
+								<div class="review-autor__info">
+									<div class="col"><img class="review-autor__image" src="images/review-ava-1.png"/></div>
+									<div class="col">
+										<div class="review-autor__name">Екатерина Васильева</div>
+										<div class="review-autor__city">возраст или город</div>
+									</div>
+								</div>
+							</div>
+							<div class="review-slider__review-text">Нарушение цикла, болезненные месячные, плохое самочувствие в эти дни — с этими симптомами я отлично знакома. Проще говоря, у меня был классический ПМС. Во время приема Fertilitea я наблюдала, как менялся мой гормональный фон. Цикл становился регулярным, болезненность груди больше не беспокоила. Эмоциональный фон приходил в норму, перед ПМС больше не хотелось никого убивать и съедать тонну молочного шоколада. Результатом довольна. Кстати, пыталась найти аналоги, но безуспешно.</div>
+							<div class="review-slider__review-likes">
+								<div class="review-likes__like _1 toggle-like active" uk-toggle="target: .toggle-like._1; cls: active;"><svg width="100%" height="100%" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path id="icon_hand" d="M32.418,10.217l-9.437,0l0.024,-10.212l-5.43,-0.005l-3.12,11.941l-2.547,2.073l-3.099,-0.003l0,-2.62l-8.809,0l0,18.623l8.809,0l0,-2.527l3.097,0l3.082,2.527l17.229,0l2.757,-17.646l-2.556,-2.151Zm-25.636,17.811l-4.755,0l0,-14.651l4.755,0l0,14.651Zm8.942,0l-3.082,-2.527l-3.833,0l0,-9.504l3.83,0.003l3.617,-2.942l2.893,-11.071l1.825,0.001l-0.023,10.215l10.717,0l1.133,0.954l-0.237,1.513l-2.718,0l0,1.986l2.408,0l-0.385,2.467l-2.728,0l0,1.986l2.417,0l-0.385,2.466l-2.738,0l0,1.986l2.428,0l-0.386,2.467l-14.753,0Z"/></svg></div>
+								<div class="review-likes__count"> 
+									<div class="toggle-like _1 active">522</div>
+									<div class="toggle-like _1 dis">-12        </div>
+								</div>
+								<div class="review-likes__dislike toggle-like _1" uk-toggle="target: .toggle-like._1; cls: active;"><svg width="100%" height="100%" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path id="icon_hand" d="M32.418,10.217l-9.437,0l0.024,-10.212l-5.43,-0.005l-3.12,11.941l-2.547,2.073l-3.099,-0.003l0,-2.62l-8.809,0l0,18.623l8.809,0l0,-2.527l3.097,0l3.082,2.527l17.229,0l2.757,-17.646l-2.556,-2.151Zm-25.636,17.811l-4.755,0l0,-14.651l4.755,0l0,14.651Zm8.942,0l-3.082,-2.527l-3.833,0l0,-9.504l3.83,0.003l3.617,-2.942l2.893,-11.071l1.825,0.001l-0.023,10.215l10.717,0l1.133,0.954l-0.237,1.513l-2.718,0l0,1.986l2.408,0l-0.385,2.467l-2.728,0l0,1.986l2.417,0l-0.385,2.466l-2.738,0l0,1.986l2.428,0l-0.386,2.467l-14.753,0Z"/></svg></div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review-card">
+							<div class="review-slider__review-autor">
+								<div class="review-autor__info">
+									<div class="col"><img class="review-autor__image" src="images/review-ava-2.png"/></div>
+									<div class="col">
+										<div class="review-autor__name">Марина Степанович</div>
+										<div class="review-autor__city">возраст или город</div>
+									</div>
+								</div>
+							</div>
+							<div class="review-slider__review-text">Моя проблема началась несколько лет назад — хроническое воспаление яичников и придатков. Как только не лечилась, даже антибиотики колола, спустя пару месяцев болезнь возвращалась. Месячные иногда длились по 2 недели и были очень болезненными. Через 2 месяца приема FertiliTea цикл нормализовался, эти дни длятся 4-5 дней, приходят вовремя. Настроение перед месячными не прыгает и не портится, хотя раньше я была похожа на бомбу замедленного действия. Видимо чай и на гормональный фон влияют, потому что состояние кожи и волос улучшилось.</div>
+							<div class="review-slider__review-likes">
+								<div class="review-likes__like toggle-like _2 active" uk-toggle="target: .toggle-like._2; cls: active;"><svg width="100%" height="100%" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path id="icon_hand" d="M32.418,10.217l-9.437,0l0.024,-10.212l-5.43,-0.005l-3.12,11.941l-2.547,2.073l-3.099,-0.003l0,-2.62l-8.809,0l0,18.623l8.809,0l0,-2.527l3.097,0l3.082,2.527l17.229,0l2.757,-17.646l-2.556,-2.151Zm-25.636,17.811l-4.755,0l0,-14.651l4.755,0l0,14.651Zm8.942,0l-3.082,-2.527l-3.833,0l0,-9.504l3.83,0.003l3.617,-2.942l2.893,-11.071l1.825,0.001l-0.023,10.215l10.717,0l1.133,0.954l-0.237,1.513l-2.718,0l0,1.986l2.408,0l-0.385,2.467l-2.728,0l0,1.986l2.417,0l-0.385,2.466l-2.738,0l0,1.986l2.428,0l-0.386,2.467l-14.753,0Z"/></svg></div>
+								<div class="review-likes__count"> 
+									<div class="toggle-like _2 active">716</div>
+									<div class="toggle-like _2 dis">-28        </div>
+								</div>
+								<div class="review-likes__dislike toggle-like _2" uk-toggle="target: .toggle-like._2; cls: active;"><svg width="100%" height="100%" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path id="icon_hand" d="M32.418,10.217l-9.437,0l0.024,-10.212l-5.43,-0.005l-3.12,11.941l-2.547,2.073l-3.099,-0.003l0,-2.62l-8.809,0l0,18.623l8.809,0l0,-2.527l3.097,0l3.082,2.527l17.229,0l2.757,-17.646l-2.556,-2.151Zm-25.636,17.811l-4.755,0l0,-14.651l4.755,0l0,14.651Zm8.942,0l-3.082,-2.527l-3.833,0l0,-9.504l3.83,0.003l3.617,-2.942l2.893,-11.071l1.825,0.001l-0.023,10.215l10.717,0l1.133,0.954l-0.237,1.513l-2.718,0l0,1.986l2.408,0l-0.385,2.467l-2.728,0l0,1.986l2.417,0l-0.385,2.466l-2.738,0l0,1.986l2.428,0l-0.386,2.467l-14.753,0Z"/></svg></div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review-card">
+							<div class="review-slider__review-autor">
+								<div class="review-autor__info">
+									<div class="col"><img class="review-autor__image" src="images/review-ava-3.png"/></div>
+									<div class="col">
+										<div class="review-autor__name">Ирина Гаевская</div>
+										<div class="review-autor__city">возраст или город</div>
+									</div>
+								</div>
+							</div>
+							<div class="review-slider__review-text">Случился в моей жизни брак, переезд в другой город и смена работы. Это был ужасный стресс для меня. Стала нервной, взвинченной, постоянно психовала и срывалась на муже. Мы еще и ребенка планировали, да все никак не получалось на нервной почве. Дальше так продолжаться не могло. Коллега, видя мое состояние, посоветовала FertiliTea. После недели приема почувствовала, что стала спокойнее, а по окончании цикла все неприятные симптомы стресса как рукой сняло. Полюбила новое место жительства, влилась в коллектив, меня даже повысили в должности. И вишенка на торте — я наконец-то забеременела. Это такое счастье, чувствовать, что я скоро стану мамой и у меня скоро родится ребенок.</div>
+							<div class="review-slider__review-likes">
+								<div class="review-likes__like toggle-like _3 active" uk-toggle="target: .toggle-like._3; cls: active;"><svg width="100%" height="100%" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path id="icon_hand" d="M32.418,10.217l-9.437,0l0.024,-10.212l-5.43,-0.005l-3.12,11.941l-2.547,2.073l-3.099,-0.003l0,-2.62l-8.809,0l0,18.623l8.809,0l0,-2.527l3.097,0l3.082,2.527l17.229,0l2.757,-17.646l-2.556,-2.151Zm-25.636,17.811l-4.755,0l0,-14.651l4.755,0l0,14.651Zm8.942,0l-3.082,-2.527l-3.833,0l0,-9.504l3.83,0.003l3.617,-2.942l2.893,-11.071l1.825,0.001l-0.023,10.215l10.717,0l1.133,0.954l-0.237,1.513l-2.718,0l0,1.986l2.408,0l-0.385,2.467l-2.728,0l0,1.986l2.417,0l-0.385,2.466l-2.738,0l0,1.986l2.428,0l-0.386,2.467l-14.753,0Z"/></svg></div>
+								<div class="review-likes__count"> 
+									<div class="toggle-like _3 active">348</div>
+									<div class="toggle-like _3 dis">-32        </div>
+								</div>
+								<div class="review-likes__dislike toggle-like _3" uk-toggle="target: .toggle-like._3; cls: active;"><svg width="100%" height="100%" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path id="icon_hand" d="M32.418,10.217l-9.437,0l0.024,-10.212l-5.43,-0.005l-3.12,11.941l-2.547,2.073l-3.099,-0.003l0,-2.62l-8.809,0l0,18.623l8.809,0l0,-2.527l3.097,0l3.082,2.527l17.229,0l2.757,-17.646l-2.556,-2.151Zm-25.636,17.811l-4.755,0l0,-14.651l4.755,0l0,14.651Zm8.942,0l-3.082,-2.527l-3.833,0l0,-9.504l3.83,0.003l3.617,-2.942l2.893,-11.071l1.825,0.001l-0.023,10.215l10.717,0l1.133,0.954l-0.237,1.513l-2.718,0l0,1.986l2.408,0l-0.385,2.467l-2.728,0l0,1.986l2.417,0l-0.385,2.466l-2.738,0l0,1.986l2.428,0l-0.386,2.467l-14.753,0Z"/></svg></div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review-card">
+							<div class="review-slider__review-autor">
+								<div class="review-autor__info">
+									<div class="col"><img class="review-autor__image" src="images/review-ava-4.png"/></div>
+									<div class="col">
+										<div class="review-autor__name">София Ковалева</div>
+										<div class="review-autor__city">возраст или город</div>
+									</div>
+								</div>
+							</div>
+							<div class="review-slider__review-text">У меня часто случаются воспаление придатков, от малейшего переохлаждения. Плюс ко всему в такие периоды нарушается микрофлора, появляется нестерпимый зуд. Традиционное лечение не приносит результата, болезнь постоянно возвращается. FertiliTea помог не только избавиться от неприятных симптомов, но и забыть о них надолго. Вот уже 4 месяца, как закончила курс чая, и никаких признаков рецидивов болезни. Для меня это огромный прогресс.</div>
+							<div class="review-slider__review-likes">
+								<div class="review-likes__like toggle-like _4 active" uk-toggle="target: .toggle-like._4; cls: active;"><svg width="100%" height="100%" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path id="icon_hand" d="M32.418,10.217l-9.437,0l0.024,-10.212l-5.43,-0.005l-3.12,11.941l-2.547,2.073l-3.099,-0.003l0,-2.62l-8.809,0l0,18.623l8.809,0l0,-2.527l3.097,0l3.082,2.527l17.229,0l2.757,-17.646l-2.556,-2.151Zm-25.636,17.811l-4.755,0l0,-14.651l4.755,0l0,14.651Zm8.942,0l-3.082,-2.527l-3.833,0l0,-9.504l3.83,0.003l3.617,-2.942l2.893,-11.071l1.825,0.001l-0.023,10.215l10.717,0l1.133,0.954l-0.237,1.513l-2.718,0l0,1.986l2.408,0l-0.385,2.467l-2.728,0l0,1.986l2.417,0l-0.385,2.466l-2.738,0l0,1.986l2.428,0l-0.386,2.467l-14.753,0Z"/></svg></div>
+								<div class="review-likes__count"> 
+									<div class="toggle-like _4 active">648</div>
+									<div class="toggle-like _4 dis">-48        </div>
+								</div>
+								<div class="review-likes__dislike toggle-like _4" uk-toggle="target: .toggle-like._4; cls: active;"><svg width="100%" height="100%" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path id="icon_hand" d="M32.418,10.217l-9.437,0l0.024,-10.212l-5.43,-0.005l-3.12,11.941l-2.547,2.073l-3.099,-0.003l0,-2.62l-8.809,0l0,18.623l8.809,0l0,-2.527l3.097,0l3.082,2.527l17.229,0l2.757,-17.646l-2.556,-2.151Zm-25.636,17.811l-4.755,0l0,-14.651l4.755,0l0,14.651Zm8.942,0l-3.082,-2.527l-3.833,0l0,-9.504l3.83,0.003l3.617,-2.942l2.893,-11.071l1.825,0.001l-0.023,10.215l10.717,0l1.133,0.954l-0.237,1.513l-2.718,0l0,1.986l2.408,0l-0.385,2.467l-2.728,0l0,1.986l2.417,0l-0.385,2.466l-2.738,0l0,1.986l2.428,0l-0.386,2.467l-14.753,0Z"/></svg></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ul class="uk-slider-nav uk-dotnav uk-animation-fade"></ul>
+				<div class="review__items-nav">
+					<div class="review-nav__el"><a class="left" href="#" uk-slider-item="previous"></a><a class="right" href="#" uk-slider-item="next"></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="order-detail" uk-scrollspy="target: .order-lines__wrap; cls: line-active; delay: 500; repeat: true">
+			<div class="container">
+				<div class="order-detail__title" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true">Позаботьтесь о&nbspсебе&nbsp— <span>закажите FertiliTea</span></div>
+			</div>
+			<div class="order-detail__detail-items">
+				<div class="order-detail__order-lines">
+					<div class="order-lines__wrap">
+						<div class="order-lines__line _one">
+							<div></div>
+						</div>
+						<div class="order-lines__line _two">
+							<div></div>
+							<div></div>
+						</div>
+						<div class="order-lines__line _tree">
+							<div></div>
+							<div> </div>
+							<div></div>
+						</div>
+						<div class="order-lines__line _four">
+							<div> </div>
+							<div> </div>
+							<div> </div>
+							<div></div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="detail-items__detail-item"><img class="detail-item__image" src="images/detail-image-1.png" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"/>
+						<div class="detail-item__text">Заполните форму заказа и оставьте контактные данные</div>
+					</div>
+					<div class="detail-items__detail-item"><img class="detail-item__image" src="images/detail-image-2.png" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"/>
+						<div class="detail-item__text">Дождитесь звонка оператора для уточнения деталей заказа   </div>
+					</div>
+					<div class="detail-items__detail-item"><img class="detail-item__image" src="images/detail-image-3.png" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"/>
+						<div class="detail-item__text">Получите посылку и оплатите удобным способом                           </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-order">
+			<div class="container">
+				<div class="section-order__order-subtitle" uk-scrollspy="cls: uk-animation-slide-bottom; delay:500; repeat: true">Это необходимо каждой женщине</div>
+				<div class="section-order__order-title" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true">
+					Чай с фитоэкстрактами <br><span> для здоровья</span> репродуктивной системы</div>
+				<div class="row">
+					<div class="section-order__order-feature">
+						<div class="order-feature__order-item"><img class="order-item__image" src="images/hero-list-img-1.png"/>
+							<div class="order-item__text"> <span>Нормализует <br></span><span>гормональный фон</span></div>
+						</div>
+						<div class="order-feature__order-item"><img class="order-item__image" src="images/hero-list-img-2.png"/>
+							<div class="order-item__text"> <span>Стабилизирует <br></span><span>менструальный цикл</span></div>
+						</div>
+						<div class="order-feature__order-item"><img class="order-item__image" src="images/hero-list-img-3.png"/>
+							<div class="order-item__text"> <span>Улучшает работу <br></span><span>нервной системы             </span></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="order-woman__image"><img src="images/hero-woman.png"/></div>
+					<div class="section-order__order-form">
+						<div class="order-form__text">Заполните форму, и мы свяжемся с вами в ближайшее время для подтверждения заказа. Ваши данные будут надёжно защищены, они используются только для оформления посылки.</div>
+						<form id="target-form" action="">
+							<select class="order-form__country">
+								<option value="RU">Россия</option>
+							</select>
+							<input class="order-form__phone phone" type="tel" placeholder="Телефон"/>
+							<input class="order-form__name name" type="text" placeholder="Имя"/>
+							<div class="form-button _button js_submit">заказать</div>
+						</form>
+					</div>
+					<div class="order-product__image"><img src="images/product.png"/></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
